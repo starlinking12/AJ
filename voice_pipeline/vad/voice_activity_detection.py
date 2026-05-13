@@ -1,1 +1,0 @@
-"""J.A.R.V.I.S. Voice Activity Detection Module."""
