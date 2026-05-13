@@ -1,0 +1,1 @@
+"""J.A.R.V.I.S. Brain Module. LLM integration, memory, and reasoning."""
