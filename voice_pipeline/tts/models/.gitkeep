@@ -1,0 +1,5 @@
+# This directory holds TTS voice model files
+# Piper: .onnx and .json files
+# XTTS: model.pth, config.json, vocab.json
+# RVC: .pth files
+# Speaker samples: speaker.wav
