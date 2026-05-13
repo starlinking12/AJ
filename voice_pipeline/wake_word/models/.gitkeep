@@ -1,0 +1,3 @@
+# This directory holds custom wake word model files (.ppn)
+# Place your trained "wake up" model here
+# Example: wake_up.ppn
