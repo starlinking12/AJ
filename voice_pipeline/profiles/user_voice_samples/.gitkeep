@@ -1,0 +1,11 @@
+# This directory stores user voice samples for enrollment.
+# Required files:
+#   enrollment.wav - 30 seconds of the user speaking naturally
+#   verification_1.wav - Short verification sample
+#   verification_2.wav - Short verification sample
+#   verification_3.wav - Short verification sample
+#
+# These are used for:
+# 1. Speaker identification (who is speaking)
+# 2. Voice activity threshold calibration
+# 3. Wake word sensitivity tuning
