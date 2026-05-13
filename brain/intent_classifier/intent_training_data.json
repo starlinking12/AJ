@@ -1,0 +1,100 @@
+{
+    "intents": {
+        "search": [
+            "search for the latest AI news",
+            "look up the capital of France",
+            "find information about quantum computing",
+            "google how to fix a leaky faucet",
+            "what is the population of Tokyo",
+            "who invented the telephone",
+            "tell me about the history of Rome",
+            "how does a combustion engine work",
+            "define photosynthesis",
+            "explain the theory of relativity"
+        ],
+        "news": [
+            "what's in the news today",
+            "show me the headlines",
+            "latest breaking news",
+            "what's happening in the world",
+            "tech news update",
+            "any important news today",
+            "tell me the news",
+            "current events please",
+            "news briefing",
+            "what's going on today"
+        ],
+        "weather": [
+            "what's the weather like",
+            "is it going to rain today",
+            "what's the temperature outside",
+            "weather forecast for tomorrow",
+            "how hot is it",
+            "do I need a jacket",
+            "will it snow this week",
+            "what's the humidity",
+            "is it sunny in London",
+            "weather report"
+        ],
+        "map": [
+            "show me a map of London",
+            "where is the nearest coffee shop",
+            "directions to the airport",
+            "navigate to home",
+            "show me Paris on the map",
+            "what's my current location",
+            "map of Tokyo",
+            "find the Eiffel Tower",
+            "route to work",
+            "show me where I am"
+        ],
+        "system": [
+            "open Chrome",
+            "launch VS Code",
+            "close all windows",
+            "volume up",
+            "mute the sound",
+            "brightness down",
+            "shutdown the computer",
+            "restart the system",
+            "lock the screen",
+            "sleep now"
+        ],
+        "camera": [
+            "open the camera",
+            "turn on my webcam",
+            "what do you see",
+            "take a picture",
+            "show me the camera",
+            "close the camera",
+            "hide the webcam",
+            "is my camera on",
+            "snap a photo",
+            "show me what you see"
+        ],
+        "music": [
+            "play some music",
+            "put on jazz",
+            "play my playlist",
+            "skip this song",
+            "pause the music",
+            "what's playing",
+            "next track",
+            "play something relaxing",
+            "stop the music",
+            "resume playback"
+        ],
+        "conversation": [
+            "hello Jarvis",
+            "how are you",
+            "good morning",
+            "thank you",
+            "who are you",
+            "what can you do",
+            "tell me a joke",
+            "good night",
+            "how's it going",
+            "nice to meet you"
+        ]
+    }
+}
