@@ -1,0 +1,18 @@
+# Noise profile placeholder
+# This file stores the ambient noise profile for calibration.
+# Generated during the wake word calibration process.
+# Format: Pickled dict with noise statistics
+# {
+#     "mean_energy": float,
+#     "std_energy": float,
+#     "frequency_profile": list[float],
+#     "calibration_timestamp": str,
+#     "duration_seconds": int
+# }
+
+# To generate:
+# Run jarvis_core calibration mode
+# The system measures ambient noise for 10 seconds
+# And saves the profile here
+
+# Placeholder bytes for the file to exist
