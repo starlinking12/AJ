@@ -1,0 +1,25 @@
+jarvis_name: "J.A.R.V.I.S."
+wake_word: "wake up"
+sleep_word: "sleep"
+user_title: "Sir"
+
+ollama_host: "http://localhost:11434"
+ollama_model: "llama3.2:3b"
+
+tts_engine: "piper"
+tts_voice: "jarvis_british_male"
+stt_model: "base"
+
+log_level: "INFO"
+max_restarts: 3
+
+enable_vision: false
+enable_web_dashboard: false
+
+api_keys:
+  mistral: ""
+  groq: ""
+  tavily: ""
+  tinyfish: ""
+  newsdata: ""
+  mapbox: ""
