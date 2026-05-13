@@ -1,0 +1,12 @@
+# Speaker embedding placeholder
+# This file stores the voice embedding vector for user identification.
+# Generated during voice enrollment.
+# Format: Pickled numpy array of shape (1, 256) or (1, 512)
+# Size: Typically 1-2 KB
+
+# To generate:
+# 1. Record ~30 seconds of the user speaking
+# 2. Extract embedding using speechbrain/spkrec-ecapa-voxceleb
+# 3. Save to this file
+
+# Placeholder bytes for the file to exist
