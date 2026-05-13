@@ -1,0 +1,7 @@
+# User overrides for J.A.R.V.I.S. configuration
+# Copy values from defaults.yaml and modify them here
+# This file is not tracked by git
+
+jarvis_name: "J.A.R.V.I.S."
+wake_word: "wake up"
+user_title: "Sir"
