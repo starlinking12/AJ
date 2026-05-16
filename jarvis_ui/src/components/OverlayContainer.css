@@ -1,0 +1,10 @@
+.overlay-container {
+    width: 100vw;
+    height: 100vh;
+    background: transparent;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
