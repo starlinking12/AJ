@@ -1,0 +1,15 @@
+appId: com.lordvader.jarvis
+productName: J.A.R.V.I.S.
+directories:
+  output: dist
+files:
+  - main.js
+  - preload.js
+  - ../src/**/*
+mac:
+  category: public.app-category.utilities
+  transparent: true
+win:
+  target: portable
+linux:
+  target: AppImage
