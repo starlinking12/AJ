@@ -1,14 +1,12 @@
 import React from 'react';
 import GlowCore from './GlowCore';
-import PulseRing from './PulseRing';
 
-const CornerMaximized: React.FC = () => {
+const CornerMinimized: React.FC = () => {
     return (
-        <div className="corner-maximized" style={{ width: 80, height: 80 }}>
-            <PulseRing count={3} />
-            <GlowCore brightness={0.7} pulse={true} />
+        <div className="corner-minimized" style={{ width: 80, height: 80 }}>
+            <GlowCore brightness={0.5} pulse={true} />
         </div>
     );
 };
 
-export default CornerMaximized;
+export default CornerMinimized;
