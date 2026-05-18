@@ -1,0 +1,4 @@
+.music-surface { padding: 40px; display: flex; align-items: center; justify-content: center; height: 100%; }
+.music-player { text-align: center; }
+.music-track { font-size: 32px; color: var(--arc-reactor-blue); margin-bottom: 12px; }
+.music-artist { font-size: 18px; color: var(--text-secondary); }
