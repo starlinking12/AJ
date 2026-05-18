@@ -1,0 +1,14 @@
+.notification-container {
+    position: fixed; bottom: 100px; right: 30px;
+    display: flex; flex-direction: column-reverse; gap: 10px; z-index: 200;
+}
+.notification-toast {
+    background: rgba(17, 17, 24, 0.95); border: 1px solid var(--arc-reactor-blue);
+    color: var(--text-primary); padding: 12px 20px; border-radius: 8px;
+    font-size: 14px; animation: slideIn 0.3s ease-out;
+    max-width: 350px;
+}
+@keyframes slideIn {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
