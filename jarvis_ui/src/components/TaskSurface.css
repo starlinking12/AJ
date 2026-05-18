@@ -1,0 +1,36 @@
+.task-surface-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: var(--bg-dark);
+    z-index: 20;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.task-surface-content {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.task-surface-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: 1px solid var(--arc-reactor-blue);
+    color: var(--arc-reactor-blue);
+    padding: 8px 16px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14px;
+    border-radius: 4px;
+    z-index: 30;
+}
+
+.task-surface-close:hover {
+    background: rgba(0, 212, 255, 0.1);
+}
