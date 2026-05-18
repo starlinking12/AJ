@@ -1,0 +1,13 @@
+.command-prompt {
+    position: fixed;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--text-secondary);
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.command-prompt.visible { opacity: 1; }
