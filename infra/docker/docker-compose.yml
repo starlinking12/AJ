@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  jarvis:
+    build:
+      context: ../..
+      dockerfile: infra/docker/Dockerfile
+    container_name: jarvis-core
+    restart: unless-stopped
+    ports:
+      - "8765:8765"
+    environment:
+      - OLLAMA_HOST=http://ollama:11434
+      - JARVIS_WAKE_WORD=wake up
+      - TTS_ENGINE=piper
+    volumes:
+      - ../../data:/app/data
+      - ../../.env:/app/.env
+    depends_on:
+      - ollama
+      - chromadb
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: jarvis-ollama
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+
+  chromadb:
+    image: chromadb/chroma:latest
+    container_name: jarvis-chromadb
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      - chroma_data:/chroma/chroma
+
+volumes:
+  ollama_data:
+  chroma_data:
