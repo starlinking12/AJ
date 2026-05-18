@@ -1,0 +1,6 @@
+.code-surface { padding: 40px; }
+.code-block {
+    background: var(--bg-medium); padding: 24px; border-radius: 8px;
+    font-family: 'JetBrains Mono', monospace; font-size: 13px;
+    color: var(--arc-reactor-blue); overflow-x: auto; line-height: 1.6;
+}
