@@ -1,0 +1,9 @@
+.settings-panel {
+    padding: 40px;
+    color: var(--text-primary);
+}
+.settings-panel h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--arc-reactor-gold);
+}
