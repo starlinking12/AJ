@@ -1,0 +1,2 @@
+.system-surface { padding: 40px; color: var(--text-primary); }
+.system-output { background: var(--bg-medium); padding: 20px; border-radius: 8px; font-family: 'JetBrains Mono', monospace; font-size: 14px; white-space: pre-wrap; }
