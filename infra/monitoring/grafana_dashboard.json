@@ -1,0 +1,52 @@
+{
+  "dashboard": {
+    "title": "J.A.R.V.I.S. System Monitor",
+    "panels": [
+      {
+        "title": "CPU Usage",
+        "type": "gauge",
+        "targets": [
+          {
+            "expr": "jarvis_cpu_usage_percent"
+          }
+        ]
+      },
+      {
+        "title": "RAM Usage",
+        "type": "gauge",
+        "targets": [
+          {
+            "expr": "jarvis_ram_usage_percent"
+          }
+        ]
+      },
+      {
+        "title": "Voice Pipeline Latency",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "jarvis_voice_latency_ms"
+          }
+        ]
+      },
+      {
+        "title": "LLM Response Time",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "jarvis_llm_response_time_ms"
+          }
+        ]
+      },
+      {
+        "title": "Requests per Minute",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "rate(jarvis_requests_total[1m])"
+          }
+        ]
+      }
+    ]
+  }
+}
